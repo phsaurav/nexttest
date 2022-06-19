@@ -386,10 +386,10 @@ chownr@^1.1.1:
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.1.4.tgz#6fc9d7b42d32a583596337666e7d08084da2cc6b"
   integrity sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg==
 
-chrome-aws-lambda@9.1.0:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/chrome-aws-lambda/-/chrome-aws-lambda-9.1.0.tgz#f3a426fa6588f2fa9452ff62d60afaa2103b2c04"
-  integrity sha512-y6MOarSzL5LmDv8sWUdDe4wHuAAEeWMlCbLwmL6Bj+pBPava37UuEPbWD5YAXyJx6oHoC0efLGqYDi56k4KMUQ==
+chrome-aws-lambda@^10.1.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/chrome-aws-lambda/-/chrome-aws-lambda-10.1.0.tgz#ac43b4cdfc1fbb2275c62effada560858099501e"
+  integrity sha512-NZQVf+J4kqG4sVhRm3WNmOfzY0OtTSm+S8rg77pwePa9RCYHzhnzRs8YvNI6L9tALIW6RpmefWiPURt3vURXcw==
   dependencies:
     lambdafs "^2.0.3"
 
@@ -1424,6 +1424,11 @@ picomatch@^2.3.1:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
+playwright-core@^1.22.2:
+  version "1.22.2"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.22.2.tgz#ed2963d79d71c2a18d5a6fd25b60b9f0a344661a"
+  integrity sha512-w/hc/Ld0RM4pmsNeE6aL/fPNWw8BWit2tg+TfqJ3+p59c6s3B6C8mXvXrIPmfQEobkcFDc+4KirNzOQ+uBSP1Q==
+
 postcss@8.4.5:
   version "8.4.5"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.5.tgz#bae665764dfd4c6fcc24dc0fdf7e7aa00cc77f95"
@@ -1683,7 +1688,7 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-tar-fs@*:
+tar-fs@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/tar-fs/-/tar-fs-2.1.1.tgz#489a15ab85f1f0befabb370b7de4f9eb5cbe8784"
   integrity sha512-V0r2Y9scmbDRLCNex/+hYzvp/zyYjvFbHPNgVTKfQvVrb6guiE/fxP+XblDNR011utopbkex2nM4dHNV6GDsng==
